@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:title=""
+    android:icon="@drawable/round_cloud_off_24"
+    android:id="@+id/ngi"
+
+    />
+    <group>
+
+        <item
+            android:title=""
+            android:icon="@drawable/outline_android_wifi_3_bar_24"
+            android:id="@+id/wifi"
+
+            />
+        <item
+            android:title="Cloud"
+            android:icon="@drawable/round_cloud_off_24"
+            android:id="@+id/cloud"
+
+            />
+        <item
+            android:title="Darkmood"
+            android:icon="@drawable/outline_bedtime_24"
+            android:id="@+id/darkmood"
+
+            />
+    </group>
+</menu>

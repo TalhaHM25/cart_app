@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Home"
+        android:id="@+id/home"
+
+        android:icon="@drawable/home_24px"
+
+        />
+
+    <item
+       android:title="Wallet"
+        android:id="@+id/wallet"
+        android:icon="@drawable/outline_account_balance_wallet_24"
+
+        />
+
+    <item
+
+        android:id="@+id/plan"
+        android:title="Plan"
+        android:icon="@drawable/outline_calendar_month_24"
+       />
+
+    <item
+
+        android:id="@+id/history"
+        android:title="History"
+        android:icon="@drawable/outline_delete_history_24"
+        />
+
+
+
+</menu>

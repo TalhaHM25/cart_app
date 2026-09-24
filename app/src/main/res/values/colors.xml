@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="brunswick_green">#FF0C4137</color>
+    <color name="emerald">#FF06D6A0</color>
+    <color name="polar">#FFE6FBF6</color>
+</resources>
