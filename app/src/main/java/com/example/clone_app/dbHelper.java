@@ -46,4 +46,37 @@ public class dbHelper extends SQLiteOpenHelper {
         Cursor cursor=db.rawQuery("Select * from Students",null);
         return cursor;
     }
+    // UPDATE DATA
+    public boolean updatedata(int studentId, String name, String email) {
+
+        SQLiteDatabase db = this.getWritableDatabase();
+
+        ContentValues values = new ContentValues();
+
+        values.put("Name", name);
+        values.put("Email", email);
+
+        int result = db.update(
+                "Students",
+                values,
+                "Student_ID = ?",
+                new String[]{String.valueOf(studentId)}
+        );
+
+        return result > 0;
+    }
+    // DELETE DATA
+    public boolean deletedata(int studentId) {
+
+        SQLiteDatabase db = this.getWritableDatabase();
+
+        int result = db.delete(
+                "Students",
+                "Student_ID = ?",
+                new String[]{String.valueOf(studentId)}
+        );
+
+        return result > 0;
+    }
+
 }
